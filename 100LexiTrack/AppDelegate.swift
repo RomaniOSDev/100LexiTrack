@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  100LexiTrack
 //
-//  Created by Роман Главацкий on 16.03.2026.
-//
+
 
 import UIKit
 

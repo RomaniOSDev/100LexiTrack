@@ -3,33 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		746A01662F7FD8470076A047 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A014B2F7FD8470076A047 /* AddGoalView.swift */; };
+		746A01672F7FD8470076A047 /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A014C2F7FD8470076A047 /* AddSessionView.swift */; };
+		746A01682F7FD8470076A047 /* AddWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A014D2F7FD8470076A047 /* AddWordView.swift */; };
+		746A01692F7FD8470076A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A014E2F7FD8470076A047 /* AppDelegate.swift */; };
+		746A016A2F7FD8470076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01502F7FD8470076A047 /* ContentView.swift */; };
+		746A016B2F7FD8470076A047 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01512F7FD8470076A047 /* DashboardView.swift */; };
+		746A016C2F7FD8470076A047 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01522F7FD8470076A047 /* GoalsView.swift */; };
+		746A016D2F7FD8470076A047 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01532F7FD8470076A047 /* HomeView.swift */; };
+		746A016E2F7FD8470076A047 /* LanguagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01552F7FD8470076A047 /* LanguagesView.swift */; };
+		746A016F2F7FD8470076A047 /* LexiComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01582F7FD8470076A047 /* LexiComponents.swift */; };
+		746A01702F7FD8470076A047 /* LexiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01592F7FD8470076A047 /* LexiModels.swift */; };
+		746A01712F7FD8470076A047 /* LexiTrackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A015A2F7FD8470076A047 /* LexiTrackViewModel.swift */; };
+		746A01722F7FD8470076A047 /* LexiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A015B2F7FD8470076A047 /* LexiUtils.swift */; };
+		746A01732F7FD8470076A047 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A015E2F7FD8470076A047 /* OnboardingView.swift */; };
+		746A01742F7FD8470076A047 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A015F2F7FD8470076A047 /* ResourcesView.swift */; };
+		746A01752F7FD8470076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01602F7FD8470076A047 /* SceneDelegate.swift */; };
+		746A01762F7FD8470076A047 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01612F7FD8470076A047 /* SettingsView.swift */; };
+		746A01772F7FD8470076A047 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01622F7FD8470076A047 /* StatsView.swift */; };
+		746A01782F7FD8470076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01632F7FD8470076A047 /* ViewController.swift */; };
+		746A01792F7FD8470076A047 /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A01642F7FD8470076A047 /* WordsView.swift */; };
+		746A017A2F7FD8470076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A014F2F7FD8470076A047 /* Assets.xcassets */; };
+		746A017C2F7FD8470076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A01572F7FD8470076A047 /* LaunchScreen.storyboard */; };
+		746A017D2F7FD8470076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A015D2F7FD8470076A047 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		746A014B2F7FD8470076A047 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		746A014C2F7FD8470076A047 /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
+		746A014D2F7FD8470076A047 /* AddWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordView.swift; sourceTree = "<group>"; };
+		746A014E2F7FD8470076A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746A014F2F7FD8470076A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746A01502F7FD8470076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746A01512F7FD8470076A047 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		746A01522F7FD8470076A047 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		746A01532F7FD8470076A047 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		746A01542F7FD8470076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746A01552F7FD8470076A047 /* LanguagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesView.swift; sourceTree = "<group>"; };
+		746A01562F7FD8470076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746A01582F7FD8470076A047 /* LexiComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexiComponents.swift; sourceTree = "<group>"; };
+		746A01592F7FD8470076A047 /* LexiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexiModels.swift; sourceTree = "<group>"; };
+		746A015A2F7FD8470076A047 /* LexiTrackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexiTrackViewModel.swift; sourceTree = "<group>"; };
+		746A015B2F7FD8470076A047 /* LexiUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexiUtils.swift; sourceTree = "<group>"; };
+		746A015C2F7FD8470076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746A015E2F7FD8470076A047 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		746A015F2F7FD8470076A047 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		746A01602F7FD8470076A047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		746A01612F7FD8470076A047 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		746A01622F7FD8470076A047 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		746A01632F7FD8470076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		746A01642F7FD8470076A047 /* WordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
 		746C113F2F688A1500F44B30 /* 100LexiTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100LexiTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03555A6B81BD3F728A89010 /* Pods-100LexiTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-100LexiTrack.release.xcconfig"; path = "Target Support Files/Pods-100LexiTrack/Pods-100LexiTrack.release.xcconfig"; sourceTree = "<group>"; };
+		C828F05EBD8E8C1633BAA96F /* Pods-100LexiTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-100LexiTrack.debug.xcconfig"; path = "Target Support Files/Pods-100LexiTrack/Pods-100LexiTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		F33D4B4B348AF26F31D87C11 /* Pods_100LexiTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_100LexiTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		746C11512F688A1700F44B30 /* Exceptions for "100LexiTrack" folder in "100LexiTrack" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 746C113E2F688A1500F44B30 /* 100LexiTrack */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		746C11412F688A1500F44B30 /* 100LexiTrack */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				746C11512F688A1700F44B30 /* Exceptions for "100LexiTrack" folder in "100LexiTrack" target */,
-			);
-			path = 100LexiTrack;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		746C113C2F688A1500F44B30 /* Frameworks */ = {
@@ -42,11 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E3FA2E9926702417FD7517A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C828F05EBD8E8C1633BAA96F /* Pods-100LexiTrack.debug.xcconfig */,
+				C03555A6B81BD3F728A89010 /* Pods-100LexiTrack.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		746A01652F7FD8470076A047 /* 100LexiTrack */ = {
+			isa = PBXGroup;
+			children = (
+				746A014B2F7FD8470076A047 /* AddGoalView.swift */,
+				746A014C2F7FD8470076A047 /* AddSessionView.swift */,
+				746A014D2F7FD8470076A047 /* AddWordView.swift */,
+				746A014E2F7FD8470076A047 /* AppDelegate.swift */,
+				746A014F2F7FD8470076A047 /* Assets.xcassets */,
+				746A01502F7FD8470076A047 /* ContentView.swift */,
+				746A01512F7FD8470076A047 /* DashboardView.swift */,
+				746A01522F7FD8470076A047 /* GoalsView.swift */,
+				746A01532F7FD8470076A047 /* HomeView.swift */,
+				746A01542F7FD8470076A047 /* Info.plist */,
+				746A01552F7FD8470076A047 /* LanguagesView.swift */,
+				746A01572F7FD8470076A047 /* LaunchScreen.storyboard */,
+				746A01582F7FD8470076A047 /* LexiComponents.swift */,
+				746A01592F7FD8470076A047 /* LexiModels.swift */,
+				746A015A2F7FD8470076A047 /* LexiTrackViewModel.swift */,
+				746A015B2F7FD8470076A047 /* LexiUtils.swift */,
+				746A015D2F7FD8470076A047 /* Main.storyboard */,
+				746A015E2F7FD8470076A047 /* OnboardingView.swift */,
+				746A015F2F7FD8470076A047 /* ResourcesView.swift */,
+				746A01602F7FD8470076A047 /* SceneDelegate.swift */,
+				746A01612F7FD8470076A047 /* SettingsView.swift */,
+				746A01622F7FD8470076A047 /* StatsView.swift */,
+				746A01632F7FD8470076A047 /* ViewController.swift */,
+				746A01642F7FD8470076A047 /* WordsView.swift */,
+			);
+			path = 100LexiTrack;
+			sourceTree = "<group>";
+		};
 		746C11362F688A1500F44B30 = {
 			isa = PBXGroup;
 			children = (
-				746C11412F688A1500F44B30 /* 100LexiTrack */,
+				746A01652F7FD8470076A047 /* 100LexiTrack */,
 				746C11402F688A1500F44B30 /* Products */,
+				6E3FA2E9926702417FD7517A /* Pods */,
+				FCDF551303910558612911B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +132,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FCDF551303910558612911B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F33D4B4B348AF26F31D87C11 /* Pods_100LexiTrack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 746C11522F688A1700F44B30 /* Build configuration list for PBXNativeTarget "100LexiTrack" */;
 			buildPhases = (
+				6EB32B2C0733747D5066F1FF /* [CP] Check Pods Manifest.lock */,
 				746C113B2F688A1500F44B30 /* Sources */,
 				746C113C2F688A1500F44B30 /* Frameworks */,
 				746C113D2F688A1500F44B30 /* Resources */,
@@ -73,12 +156,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				746C11412F688A1500F44B30 /* 100LexiTrack */,
-			);
 			name = 100LexiTrack;
-			packageProductDependencies = (
-			);
 			productName = 100LexiTrack;
 			productReference = 746C113F2F688A1500F44B30 /* 100LexiTrack.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +177,7 @@
 				};
 			};
 			buildConfigurationList = 746C113A2F688A1500F44B30 /* Build configuration list for PBXProject "100LexiTrack" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +185,6 @@
 				Base,
 			);
 			mainGroup = 746C11362F688A1500F44B30;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 746C11402F688A1500F44B30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +199,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A017A2F7FD8470076A047 /* Assets.xcassets in Resources */,
+				746A017C2F7FD8470076A047 /* LaunchScreen.storyboard in Resources */,
+				746A017D2F7FD8470076A047 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EB32B2C0733747D5066F1FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-100LexiTrack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		746C113B2F688A1500F44B30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A01662F7FD8470076A047 /* AddGoalView.swift in Sources */,
+				746A01672F7FD8470076A047 /* AddSessionView.swift in Sources */,
+				746A01682F7FD8470076A047 /* AddWordView.swift in Sources */,
+				746A01692F7FD8470076A047 /* AppDelegate.swift in Sources */,
+				746A016A2F7FD8470076A047 /* ContentView.swift in Sources */,
+				746A016B2F7FD8470076A047 /* DashboardView.swift in Sources */,
+				746A016C2F7FD8470076A047 /* GoalsView.swift in Sources */,
+				746A016D2F7FD8470076A047 /* HomeView.swift in Sources */,
+				746A016E2F7FD8470076A047 /* LanguagesView.swift in Sources */,
+				746A016F2F7FD8470076A047 /* LexiComponents.swift in Sources */,
+				746A01702F7FD8470076A047 /* LexiModels.swift in Sources */,
+				746A01712F7FD8470076A047 /* LexiTrackViewModel.swift in Sources */,
+				746A01722F7FD8470076A047 /* LexiUtils.swift in Sources */,
+				746A01732F7FD8470076A047 /* OnboardingView.swift in Sources */,
+				746A01742F7FD8470076A047 /* ResourcesView.swift in Sources */,
+				746A01752F7FD8470076A047 /* SceneDelegate.swift in Sources */,
+				746A01762F7FD8470076A047 /* SettingsView.swift in Sources */,
+				746A01772F7FD8470076A047 /* StatsView.swift in Sources */,
+				746A01782F7FD8470076A047 /* ViewController.swift in Sources */,
+				746A01792F7FD8470076A047 /* WordsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		746A01572F7FD8470076A047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A01562F7FD8470076A047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		746A015D2F7FD8470076A047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A015C2F7FD8470076A047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		746C11532F688A1700F44B30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C828F05EBD8E8C1633BAA96F /* Pods-100LexiTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +292,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 100LexiTrack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LexiTrack - Polyglot";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-00LexiTrack";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.l4x9tr2ckp0l6gl4t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		746C11542F688A1700F44B30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03555A6B81BD3F728A89010 /* Pods-100LexiTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +330,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 100LexiTrack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LexiTrack - Polyglot";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-00LexiTrack";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.l4x9tr2ckp0l6gl4t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

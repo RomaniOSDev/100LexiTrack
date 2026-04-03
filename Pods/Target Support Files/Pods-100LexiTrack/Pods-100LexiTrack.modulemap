@@ -1,0 +1,6 @@
+framework module Pods_100LexiTrack {
+  umbrella header "Pods-100LexiTrack-umbrella.h"
+
+  export *
+  module * { export * }
+}
